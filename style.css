@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 14);
+
+}
+
+nav {
+  background-color: black;
+  padding: 1px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  height: 80px;
+}
+
+.lang-btn {
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 15px;
+  color: black;
+  padding: 6px 30px;
+  background-color: none;
+}
+
+.sing-btn {
+  width: 80px;
+  height: 35px;
+  border: none;
+  background-color: red;
+  border-radius: 6px;
+  color: black;
+  padding: 6px 10px;
+}
+
+.container {
+  height: 530px;
+  background-color: rgb(0, 0, 14);
+  padding-left: 150px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-image: url("netflix\ background.jpg");
+}
+
+.text-area {
+  width: 580px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.text-area h1 {
+  font-size: 60px;
+}
+
+.text-area h2 {
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+.in {
+  width: 60vh;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 10px;
+  margin: 5px 5px;
+  font-size: 17px;
+  color: white;
+}
+
+.btn {
+  width: 25vh;
+  height: 50px;
+  background-color: red;
+  border-radius: 6px;
+  border: none;
+  margin: 5px 5px;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.tv-section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px 50px;
+}
+
+.text-section {
+  width: 50%;
+  padding: 50px;
+  color: white;
+  padding: 10px 50px;
+}
+
+.text-section {
+  font-size: 50px;
+}
+
+.text-section p {
+  font-size: 20px;
+}
+
+.image-section {
+  height: 350px;
+}
+
+.tv1 {
+  width: 350px;
+  height: 350px;
+}
+
+.line {
+  margin: 30px;
+  width: 80%;
+  border-bottom: 10px solid gray;
+  margin-left: 130px;
+}
+
+.se {
+  background-color: rgb(0, 0, 14);
+  width: 1220px;
+  height: 1000px;
+}
+
+.di {
+  margin-left: 140px;
+  margin-top: 100px;
+}
+
+.h {
+  font-size: 40px;
+  color: white
+}
+
+.ul {
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 30px;
+}
+
+.a {
+  padding: 5px;
+  background-color: rgb(15, 15, 75);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  margin-right: 120px;
+  margin-top: 20px;
+}
+
+span {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  ;
+  font-size: 60px;
+}
+
+.pe {
+  font-size: 20px;
+  margin-left: 170px;
+}
+
+.ine {
+  width: 60vh;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 17px;
+  color: white;
+  margin: 20px 10px;
+  margin-left: 170px;
+}
+
+.bt {
+  width: h;
+  height: 50px;
+  background-color: red;
+  border-radius: 6px;
+  margin: 20px 10px;
+  border: none;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+.last-div {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgb(0, 0, 14);
+  padding-left: 100px;
+}
+
+.last-div h4 {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  color: white;
+  padding-right: 700px;
+}
+
+.last-div ul {
+  width: 250px;
+  display: flex;
+  align-items: start;
+  justify-content: space-arround;
+  flex-direction: column;
+  color: white;
+}
+
+.last-div a {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.man-sec {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
